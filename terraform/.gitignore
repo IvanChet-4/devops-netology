@@ -1,0 +1,22 @@
+# Локальная директория с плагинами и модулями
+.terraform/
+
+# Файлы состояния (state)
+*.tfstate
+*.tfstate.*
+
+# Файлы логов падений
+crash.log
+crash.*.log
+
+# Приватные переменные и секреты (если не хранятся в гите)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Локальные файлы конфигурации CLI
+.terraformrc
+terraform.rc
